@@ -7,7 +7,7 @@ ENV PATH="$JAVA_HOME/bin:$PATH"
 
 WORKDIR /testContainerApp
 
-EXPOSE 8080
+EXPOSE 8081
 
 ADD target/ntlg_hw_spring-boot_Conditional-0.0.1-SNAPSHOT.jar testContainersApp.jar
 
